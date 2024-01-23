@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,41 +8,41 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/img/favicon/apple-touch-icon.png"
+      href="{% static 'assets/img/favicon/apple-touch-icon.png'%}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/img/favicon/favicon-32x32.png"
+      href="{% static 'assets/img/favicon/favicon-32x32.png'%}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/img/favicon/favicon-16x16.png"
+      href="{% static 'assets/img/favicon/favicon-16x16.png'%}"
     />
-    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+    <link rel="manifest" href="{% static 'assets/img/favicon/site.webmanifest'%}" />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="assets/img/favicon/android-chrome-192x192.png"
+      href="{% static 'assets/img/favicon/android-chrome-192x192.png'%}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="512x512"
-      href="assets/img/favicon/android-chrome-512x512.png"
+      href="{% static 'assets/img/favicon/android-chrome-512x512.png'%}"
     />
-    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" />
+    <link rel="shortcut icon" href="{% static 'assets/img/favicon/favicon.ico'%}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css'%}" />
     <title>Sakii</title>
   </head>
 
@@ -51,7 +53,7 @@
           <div class="row align-items-center">
             <div class="col-md-2">
               <div class="header-logo">
-                <a href="/"><img src="assets/img/logo.png" alt="logo" /></a>
+                <a href="/"><img src="{% static 'assets/img/logo.png'%}" alt="logo" /></a>
               </div>
             </div>
             <div class="col-md-8">
@@ -125,7 +127,7 @@
         </div>
       </div>
       <div class="mobile-header">
-        <a href="/"><img src="assets/img/logo.png" alt="logo" /></a>
+        <a href="/"><img src="{% static 'assets/img/logo.png'%}" alt="logo" /></a>
         <span class="mobile-menu-open-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -274,7 +276,7 @@
             <div class="blog-item-list">
               <div class="blog-item">
                 <div class="blog-image">
-                  <a href='/blog-details'><img src="assets/img/blog/1.jpg" alt="blog"
+                  <a href='/blog-details'><img src="{% static 'assets/img/blog/1.jpg'%}" alt="blog"
                   /></a>
                   <div class="blog-date">
                     <strong>18</strong>
@@ -322,7 +324,7 @@
               </div>
               <div class="blog-item">
                 <div class="blog-image">
-                  <a href='/blog-details'><img src="assets/img/blog/2.jpg" alt="blog"
+                  <a href='/blog-details'><img src="{% static 'assets/img/blog/2.jpg'%}" alt="blog"
                   /></a>
                   <div class="blog-date">
                     <strong>18</strong>
@@ -370,7 +372,7 @@
               </div>
               <div class="blog-item">
                 <div class="blog-image">
-                  <a href='/blog-details'><img src="assets/img/blog/3.jpg" alt="blog"
+                  <a href='/blog-details'><img src="{% static 'assets/img/blog/3.jpg'%}" alt="blog"
                   /></a>
                   <div class="blog-date">
                     <strong>18</strong>
@@ -463,7 +465,7 @@
                 <div class="sidebar-recent-post">
                   <div class="sidebar-recent-post-item">
                     <a href="#"
-                      ><img src="assets/img/blog/1.jpg" alt="blog"
+                      ><img src="{% static 'assets/img/blog/1.jpg'%}" alt="blog"
                     /></a>
                     <div class="blog-sidebar-post-content">
                       <ul>
@@ -487,7 +489,7 @@
                   </div>
                   <div class="sidebar-recent-post-item">
                     <a href="#"
-                      ><img src="assets/img/blog/2.jpg" alt="blog"
+                      ><img src="{% static 'assets/img/blog/2.jpg'%}" alt="blog"
                     /></a>
                     <div class="blog-sidebar-post-content">
                       <ul>
@@ -511,7 +513,7 @@
                   </div>
                   <div class="sidebar-recent-post-item">
                     <a href="#"
-                      ><img src="assets/img/blog/3.jpg" alt="blog"
+                      ><img src="{% static 'assets/img/blog/3.jpg'%}" alt="blog"
                     /></a>
                     <div class="blog-sidebar-post-content">
                       <ul>
@@ -605,7 +607,7 @@
         </div>
       </div>
     </footer>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js'%}"></script>
+    <script src="{% static 'assets/js/custom.js'%}"></script>
   </body>
 </html>

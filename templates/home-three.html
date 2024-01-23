@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,41 +8,41 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/img/favicon/apple-touch-icon.png"
+      href="{% static'assets/img/favicon/apple-touch-icon.png'%}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/img/favicon/favicon-32x32.png"
+      href="{% static'assets/img/favicon/favicon-32x32.png'%}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="assets/img/favicon/favicon-16x16.png"
+      href="{% static'assets/img/favicon/favicon-16x16.png'%}"
     />
-    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
+    <link rel="manifest" href="{% static'assets/img/favicon/site.webmanifest'%}" />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="assets/img/favicon/android-chrome-192x192.png"
+      href="{% static'assets/img/favicon/android-chrome-192x192.png'%}"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="512x512"
-      href="assets/img/favicon/android-chrome-512x512.png"
+      href="{% static'assets/img/favicon/android-chrome-512x512.png'%}"
     />
-    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" />
+    <link rel="shortcut icon" href="{% static'assets/img/favicon/favicon.ico'%}" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="{% static'assets/css/styles.css" />
     <title>Sakii</title>
   </head>
 
@@ -51,7 +53,7 @@
           <div class="row align-items-center">
             <div class="col-md-2">
               <div class="header-logo">
-                <a href="/"><img src="assets/img/logo.png" alt="logo" /></a>
+                <a href="/"><img src="{% static'assets/img/logo.png'%}" alt="logo" /></a>
               </div>
             </div>
             <div class="col-md-8">
@@ -125,7 +127,7 @@
         </div>
       </div>
       <div class="mobile-header">
-        <a href="/"><img src="assets/img/logo.png" alt="logo" /></a>
+        <a href="/"><img src="{% static'assets/img/logo.png'%}" alt="logo" /></a>
         <span class="mobile-menu-open-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -275,7 +277,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="about-three-image">
-              <img src="assets/img/home-three/about.png" alt="about" />
+              <img src="{% static'assets/img/home-three/about.png'%}" alt="about" />
               <div class="about-three-image-info">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -305,7 +307,7 @@
             <div class="section-title">
               <h5>
                 About
-                <img src="assets/img/right-design-arrow.svg" alt="arrow" />
+                <img src="{% static'assets/img/right-design-arrow.svg" alt="arrow" />
               </h5>
               <h2>
                 Putting your talent in the and <br />
@@ -371,7 +373,7 @@
             <div class="section-title">
               <h5>
                 my services
-                <img src="assets/img/right-design-arrow.svg" alt="arrow" />
+                <img src="{% static'assets/img/right-design-arrow.svg" alt="arrow" />
               </h5>
               <h2>
                 Elevate personal the <br />
@@ -743,9 +745,9 @@
           <div class="col-md-12">
             <div class="section-title text-center">
               <h5 class="justify-content-center">
-                <img src="assets/img/left-design-arrow.svg" alt="arrow" />
+                <img src="{% static'assets/img/left-design-arrow.svg" alt="arrow" />
                 my projects<img
-                  src="assets/img/right-design-arrow.svg"
+                  src="{% static'assets/img/right-design-arrow.svg"
                   alt="arrow"
                 />
               </h5>
@@ -757,7 +759,7 @@
             <div class="row gy-4">
               <div class="col-md-4">
                 <div class="project-three-item">
-                  <img src="assets/img/home-three/p1.jpg" alt="project" />
+                  <img src="{% static'assets/img/home-three/p1.jpg" alt="project" />
                   <div class="project-three-item-content">
                     <h3><a href="#">Your Partner in Progress</a></h3>
                     <p>Business Intelligence</p>
@@ -766,7 +768,7 @@
               </div>
               <div class="col-md-4">
                 <div class="project-three-item">
-                  <img src="assets/img/home-three/p2.jpg" alt="project" />
+                  <img src="{% static'assets/img/home-three/p2.jpg" alt="project" />
                   <div class="project-three-item-content">
                     <h3><a href="#">Your Partner in Progress</a></h3>
                     <p>Business Intelligence</p>
@@ -775,7 +777,7 @@
               </div>
               <div class="col-md-4">
                 <div class="project-three-item">
-                  <img src="assets/img/home-three/p3.jpg" alt="project" />
+                  <img src="{% static'assets/img/home-three/p3.jpg" alt="project" />
                   <div class="project-three-item-content">
                     <h3><a href="#">Your Partner in Progress</a></h3>
                     <p>Business Intelligence</p>
@@ -784,7 +786,7 @@
               </div>
               <div class="col-md-6">
                 <div class="project-three-item">
-                  <img src="assets/img/home-three/p4.jpg" alt="project" />
+                  <img src="{% static'assets/img/home-three/p4.jpg" alt="project" />
                   <div class="project-three-item-content">
                     <h3><a href="#">Your Partner in Progress</a></h3>
                     <p>Business Intelligence</p>
@@ -793,7 +795,7 @@
               </div>
               <div class="col-md-6">
                 <div class="project-three-item">
-                  <img src="assets/img/home-three/p5.jpg" alt="project" />
+                  <img src="{% static'assets/img/home-three/p5.jpg" alt="project" />
                   <div class="project-three-item-content">
                     <h3><a href="#">Your Partner in Progress</a></h3>
                     <p>Business Intelligence</p>
@@ -811,9 +813,9 @@
           <div class="col-md-12">
             <div class="section-title text-center">
               <h5 class="justify-content-center">
-                <img src="assets/img/left-design-arrow.svg" alt="arrow" />
+                <img src="{% static'assets/img/left-design-arrow.svg" alt="arrow" />
                 Qualification<img
-                  src="assets/img/right-design-arrow.svg"
+                  src="{% static'assets/img/right-design-arrow.svg"
                   alt="arrow"
                 />
               </h5>
@@ -884,7 +886,7 @@
             <div class="section-title">
               <h5>
                 Testimonial
-                <img src="assets/img/right-design-arrow.svg" alt="arrow" />
+                <img src="{% static'assets/img/right-design-arrow.svg" alt="arrow" />
               </h5>
               <h2>
                 Elevate personal <br />
@@ -904,7 +906,7 @@
                 <div class="testimonial-two-item">
                   <div class="testimonial-two-info">
                     <div class="testimonial-two-img">
-                      <img src="assets/img/home-two/t1.svg" alt="testimonial" />
+                      <img src="{% static'assets/img/home-two/t1.svg" alt="testimonial" />
                     </div>
                     <div class="testimonial-two-content">
                       <span>
@@ -997,7 +999,7 @@
                 <div class="testimonial-two-item">
                   <div class="testimonial-two-info">
                     <div class="testimonial-two-img">
-                      <img src="assets/img/home-two/t2.svg" alt="testimonial" />
+                      <img src="{% static'assets/img/home-two/t2.svg" alt="testimonial" />
                     </div>
                     <div class="testimonial-two-content">
                       <span>
@@ -1135,7 +1137,7 @@
         </div>
       </div>
     </footer>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="{% static'assets/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static'assets/js/custom.js"></script>
   </body>
 </html>
